@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "watch": "watchify src -o public/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Ashley-Stanbridge/Name_My_Baby/issues"
   },
-  "homepage": "https://github.com/Ashley-Stanbridge/Name_My_Baby#readme"
+  "homepage": "https://github.com/Ashley-Stanbridge/Name_My_Baby#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "faker": "^4.1.0",
+    "superagent": "^3.5.0"
+  }
 }
